@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoldenVault</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0e0e0e;
+      color: #f8f8f8;
+    }
+
+    header {
+      background-color: #000000;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo img {
+      height: 60px;
+      margin-right: 15px;
+    }
+
+    .logo h1 {
+      background: linear-gradient(90deg, #FFD700, #B8860B);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2rem;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: gold;
+      text-decoration: none;
+      margin: 10px 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #1e90ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to bottom, #111, #000);
+      border-top: 2px solid gold;
+      border-bottom: 2px solid gold;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: gold;
+    }
+
+    .hero p {
+      color: #ccc;
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1.2rem;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    .section h2 {
+      color: #FFD700;
+    }
+
+    .section img {
+      height: 150px;
+      margin: 20px 0;
+    }
+
+    .section p {
+      color: #ddd;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      color: gold;
+      border-top: 2px solid gold;
+    }
+
+    @media (max-width: 768px) {
+      .logo img {
+        height: 50px;
+      }
+
+      .logo h1 {
+        font-size: 1.5rem;
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
+
+      .hero p, .section p {
+        font-size: 1rem;
+      }
+
+      nav a {
+        margin: 5px 10px;
+      }
+
+      .section img {
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="GoldenVault Logo.png" alt="GoldenVault Logo" />
+      <h1>GoldenVault</h1>
+    </div>
+    <nav>
+      <a href="#gaming">Gaming</a>
+      <a href="#collectibles">Collectibles</a>
+      <a href="#exchange">Exchange</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Welcome to GoldenVault</h2>
+    <p>Your ultimate destination for trading, gaming, and collecting. Discover treasures behind every vault.</p>
+  </div>
+
+  <div class="section" id="gaming">
+    <h2>GoldenVault Gaming</h2>
+    <img src="Gaming Logo.png" alt="GoldenVault Gaming Logo" />
+    <p>Explore our latest content, reviews, and live streams on all things gaming.</p>
+  </div>
+
+  <div class="section" id="collectibles">
+    <h2>GoldenVault Collectibles</h2>
+    <p>Coming soon: Rare cards, auctions, and curated collections.</p>
+  </div>
+
+  <div class="section" id="exchange">
+    <h2>GoldenVault Exchange</h2>
+    <p>Coming soon: Trade with our trusted community and expand your vault.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 GoldenVault. All rights reserved.
+  </footer>
+</body>
+</html>
